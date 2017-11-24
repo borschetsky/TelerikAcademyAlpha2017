@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Lecture231117
+namespace Problem01FillTheMatrix
 {
     class Program
     {
@@ -13,7 +13,7 @@ namespace Lecture231117
             int n = int.Parse(Console.ReadLine());
             char symbol = char.Parse(Console.ReadLine());
             int[,] matrix = new int[n, n];
-           
+           //Case a
             if (symbol == 'a')
             {
                 int counter = 1;
@@ -28,6 +28,7 @@ namespace Lecture231117
                 }
                     
             }
+            //Case b
             else if (symbol == 'b')
             {
                 int counter = 1;
@@ -56,7 +57,8 @@ namespace Lecture231117
                 }
 
             }
-
+            //Case c
+            //Printing the matrix
             for (int i = 0; i < matrix.GetLength(0); i++)
             {
                 for (int j = 0; j < matrix.GetLength(1); j++)
