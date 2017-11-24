@@ -22,7 +22,6 @@ namespace Problem01FillTheMatrix
                     for (int row = 0; row < n; row++)
                     {
                         matrix[row, col] = counter;
-
                         counter++;
                     }
                 }
@@ -32,7 +31,6 @@ namespace Problem01FillTheMatrix
             else if (symbol == 'b')
             {
                 int counter = 1;
-
                 for (int col = 0; col < n; col++)
                 {
                     if (col != 0 && col % 2 != 0)
@@ -40,7 +38,6 @@ namespace Problem01FillTheMatrix
                         for (int row = n - 1; row >= 0; row--)
                         {
                             matrix[row, col] = counter;
-
                             counter++;
                         }
                     }
@@ -49,7 +46,6 @@ namespace Problem01FillTheMatrix
                         for (int row = 0; row < n; row++)
                         {
                             matrix[row, col] = counter;
-
                             counter++;
                         }
                     }
@@ -63,7 +59,12 @@ namespace Problem01FillTheMatrix
             {
                 for (int j = 0; j < matrix.GetLength(1); j++)
                 {
-                    Console.Write(" "+ matrix[i, j]);
+                    if (j == n - 1)
+                    {
+                        Console.WriteLine(matrix[i, j]);
+                        break;
+                    }
+                    Console.Write(matrix[i, j] + " ");
                 }
                 Console.WriteLine();
             }
