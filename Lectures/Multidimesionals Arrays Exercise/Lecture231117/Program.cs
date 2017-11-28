@@ -13,7 +13,7 @@ namespace Problem01FillTheMatrix
             int n = int.Parse(Console.ReadLine());
             char symbol = char.Parse(Console.ReadLine());
             int[,] matrix = new int[n, n];
-           //Case a
+            //Case a
             if (symbol == 'a')
             {
                 int counter = 1;
@@ -25,9 +25,9 @@ namespace Problem01FillTheMatrix
                         counter++;
                     }
                 }
-                    
+
             }
-            //Case b
+            //Case bma
             else if (symbol == 'b')
             {
                 int counter = 1;
@@ -54,6 +54,63 @@ namespace Problem01FillTheMatrix
 
             }
             //Case c
+            //Case d spiral
+            else if (symbol == 'd')
+            {
+                int counter = 1;
+                string direction = "down";
+                int[] position = { 0, 0 };
+                for (int i = 0; i < n * n; i++)
+                {
+                    matrix[position[0], position[1]] = counter;
+                    counter++;
+                    switch (direction)
+                    {
+                        case "down":
+                            if (position[0] + 1 < n && matrix[position[0] + 1, position[1]] == 0)
+                                position[0]++;
+                            else
+                            {
+                                direction = "right";
+                                position[1]++;
+                            }
+                            break;
+                        case "right":
+                            if (position[1] + 1 < n && matrix[position[0], position[1] + 1] == 0)
+                                position[1]++;
+                            else
+                            {
+                                direction = "up";
+                                position[0]--;
+                            }
+                            break;
+                        case "up":
+                            if (position[0] > 0 && matrix[position[0] - 1, position[1]] == 0)
+                            {
+                                position[0]--;
+                            }
+                            else
+                            {
+                                direction = "left";
+                                position[1]--;
+                            }
+                            break;
+                        case "left":
+                            if (position[1] > 0 && matrix[position[0], position[1] - 1] == 0)
+                            {
+                                position[1]--;
+                            }
+                            else
+                            {
+                                direction = "down";
+                                position[0]++;
+                            }
+                            break;
+                        default:
+                            break;
+                    }
+                }
+            }
             //Printing the matrix
             for (int i = 0; i < matrix.GetLength(0); i++)
             {

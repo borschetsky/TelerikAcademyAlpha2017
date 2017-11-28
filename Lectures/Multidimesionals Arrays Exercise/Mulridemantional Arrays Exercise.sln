@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem02MaximumSum", "Prob
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem03Sequenceinmatrix", "Problem03Sequenceinmatrix\Problem03Sequenceinmatrix.csproj", "{F2A0032A-F4F0-425B-A3FF-F248755A7DE7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem08BishopPathFinder", "Problem08BishopPathFinder\Problem08BishopPathFinder.csproj", "{C186F7DA-CFD9-4574-85DF-FF36C453FFA4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{F2A0032A-F4F0-425B-A3FF-F248755A7DE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F2A0032A-F4F0-425B-A3FF-F248755A7DE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F2A0032A-F4F0-425B-A3FF-F248755A7DE7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C186F7DA-CFD9-4574-85DF-FF36C453FFA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C186F7DA-CFD9-4574-85DF-FF36C453FFA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C186F7DA-CFD9-4574-85DF-FF36C453FFA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C186F7DA-CFD9-4574-85DF-FF36C453FFA4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
