@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem03Sequenceinmatrix",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem08BishopPathFinder", "Problem08BishopPathFinder\Problem08BishopPathFinder.csproj", "{C186F7DA-CFD9-4574-85DF-FF36C453FFA4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Case c", "Case c\Case c.csproj", "{EDE1E798-DC0B-4640-9ED8-3D00161BF3E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Case_c_1", "Case_c_1\Case_c_1.csproj", "{24C52EAE-77C3-4C36-8436-A0BBB14D91F4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,14 @@ Global
 		{C186F7DA-CFD9-4574-85DF-FF36C453FFA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C186F7DA-CFD9-4574-85DF-FF36C453FFA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C186F7DA-CFD9-4574-85DF-FF36C453FFA4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EDE1E798-DC0B-4640-9ED8-3D00161BF3E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDE1E798-DC0B-4640-9ED8-3D00161BF3E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDE1E798-DC0B-4640-9ED8-3D00161BF3E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDE1E798-DC0B-4640-9ED8-3D00161BF3E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24C52EAE-77C3-4C36-8436-A0BBB14D91F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24C52EAE-77C3-4C36-8436-A0BBB14D91F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24C52EAE-77C3-4C36-8436-A0BBB14D91F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24C52EAE-77C3-4C36-8436-A0BBB14D91F4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -31,7 +31,7 @@ namespace Problem03Sequenceinmatrix
             //Comparing rows
             for (int row = 0; row < matrix.GetLength(0); row++)
             {
-                int sequenceCounter = 0;
+                int sequenceCounter = 1;
                 for (int col = 1; col < matrix.GetLength(1); col++)
                 {
                     if (matrix[row, col] == matrix[row, col - 1])
@@ -48,7 +48,7 @@ namespace Problem03Sequenceinmatrix
             
             for (int col = 0; col < matrix.GetLength(1); col++)
             {
-                int sequenceCounterCols = 0;
+                int sequenceCounterCols = 1;
                 for (int row = 1; row < matrix.GetLength(0); row++)
                 {
                     if (matrix[row, col] == matrix[row - 1, col])

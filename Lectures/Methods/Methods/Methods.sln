@@ -21,7 +21,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem08NumberAsArray", "P
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem08NumbersAsArrayv2", "Problem08NumbersAsArrayv2\Problem08NumbersAsArrayv2.csproj", "{2494F771-CCA0-4F5F-A9AC-7E7D0952062F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Porblem09SortingArray", "Porblem09SortingArray\Porblem09SortingArray.csproj", "{CEBF5F92-B977-422A-87E7-DBC961DC8F9C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem09SortingArray", "Porblem09SortingArray\Problem09SortingArray.csproj", "{CEBF5F92-B977-422A-87E7-DBC961DC8F9C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem10Factorial", "Problem10Factorial\Problem10Factorial.csproj", "{49AC0950-3B6E-4B80-9A48-7CE8521E150F}"
 EndProject

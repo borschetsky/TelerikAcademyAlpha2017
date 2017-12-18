@@ -49,11 +49,46 @@ namespace Problem01FillTheMatrix
                             counter++;
                         }
                     }
-                    Console.WriteLine();
+                    
                 }
 
             }
             //Case c
+            else if (symbol == 'c')
+            {
+
+                //Count of diagonals
+                int couuntOfDiagonals = matrix.GetLength(0) + matrix.GetLength(1) - 1;
+                int counter = 1;
+                for (int i = 0; i < couuntOfDiagonals; i++)
+                {
+                    if (i < matrix.GetLength(0))
+                    {
+                        int row = matrix.GetLength(0) - 1 - i;
+                        int col = 0;
+                        for (int j = 0; j <= i; j++)
+                        {
+                            matrix[row, col] = counter;
+                            col++;
+                            row++;
+                            counter++;
+                        }
+                    }
+                    else
+                    {
+                        int col = i - matrix.GetLength(1) + 1;
+                        int row = 0;
+                        for (int j = i; j < couuntOfDiagonals; j++)
+                        {
+                            matrix[row, col] = counter;
+                            col++;
+                            row++;
+                            counter++;
+
+                        }
+                    }
+                }
+            }
             //Case d spiral
             else if (symbol == 'd')
             {
@@ -123,7 +158,7 @@ namespace Problem01FillTheMatrix
                     }
                     Console.Write(matrix[i, j] + " ");
                 }
-                Console.WriteLine();
+                
             }
 
             
